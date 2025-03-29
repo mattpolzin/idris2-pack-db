@@ -122,7 +122,7 @@
 | [racket-tcp](https://git.sr.ht/~janus/racket-tcp) | Thin bindings to the [racket/tcp](https://docs.racket-lang.org/reference/tcp.html) library. Supports concurrency using the Racket custodian. Also supports OpenSSL for TLS. | BSD-3 Clause | [1fb1358](https://git.sr.ht/~janus/racket-tcp/commit/1fb135821a0fad9770393473e1dc4dee0d26e1e5) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/racket-tcp/docs/index.html) |
 | [random-pure](https://github.com/buzden/idris2-random-pure) | Pure pseudo-random interface and splitmix implementation | Apache-2.0 | [e5aad14](https://github.com/buzden/idris2-random-pure/commit/e5aad147d41ccea7fd5265d61160ff7a48ffba10) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/random-pure/docs/index.html) |
 | [ratio](https://github.com/kiana-S/idris2-ratio) | Arbitrary-precision ratio types | MIT | [1bdfde8](https://github.com/kiana-S/idris2-ratio/commit/1bdfde80d70c1dc63df186e32f7c86ba6545dff2) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/ratio/docs/index.html) |
-| [ref1](https://github.com/stefan-hoeck/idris2-ref1) | Linear mutable references and utilities |  | [3dad065](https://github.com/stefan-hoeck/idris2-ref1/commit/3dad06599ac37ccb914e675d2b4ee28801156e17) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/ref1/docs/index.html) |
+| [ref1](https://github.com/stefan-hoeck/idris2-ref1) | Linear mutable references and utilities |  | [ec25062](https://github.com/stefan-hoeck/idris2-ref1/commit/ec25062c10f3a89107997e4a8e20181e26874341) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/ref1/docs/index.html) |
 | [refined](https://github.com/stefan-hoeck/idris2-refined) | Refinement types in Idris2 | BSD-3 | [c585013](https://github.com/stefan-hoeck/idris2-refined/commit/c585013c33ad5398c91beed71fec61a5b721a8da) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/refined/docs/index.html) |
 | [refined-json](https://github.com/stefan-hoeck/idris2-refined) | Deriving JSON marshallers for refinement types | BSD-3 | [c585013](https://github.com/stefan-hoeck/idris2-refined/commit/c585013c33ad5398c91beed71fec61a5b721a8da) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/refined-json/docs/index.html) |
 | [refined-tsv](https://github.com/stefan-hoeck/idris2-refined) | Deriving TSV marshallers for refinement types | BSD-3 | [c585013](https://github.com/stefan-hoeck/idris2-refined/commit/c585013c33ad5398c91beed71fec61a5b721a8da) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/refined-tsv/docs/index.html) |
@@ -158,6 +158,7 @@
 | [utf8](https://git.sr.ht/~janus/utf8) | UTF-8 encoding and decoding for Racket/Chez (contributions welcome) | BSD-3 Clause | [8294f20](https://git.sr.ht/~janus/utf8/commit/8294f204251a097a01d285a04b150a11121df14f) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/utf8/docs/index.html) |
 | [uv](https://github.com/stefan-hoeck/idris2-uv) | Idris2 bindings to libuv |  | [b3b16c1](https://github.com/stefan-hoeck/idris2-uv/commit/b3b16c17d89ad78cf7f3287511689bd4bf333344) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/uv/docs/index.html) |
 | [uv-data](https://github.com/stefan-hoeck/idris2-uv) | Generated constants fir idris2-uv |  | [b3b16c1](https://github.com/stefan-hoeck/idris2-uv/commit/b3b16c17d89ad78cf7f3287511689bd4bf333344) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/uv-data/docs/index.html) |
+| [web-server-racket](https://git.sr.ht/~janus/web-server-racket) | HTTP2 server with PostgreSQL access. See usage example in `web-server-racket-hello-world`. Only supports Racket due to reliance on the `racket-tcp` library. | BSD-3 Clause | [0d67bc5](https://git.sr.ht/~janus/web-server-racket/commit/0d67bc5ef7c0ae112d6a61dbd011944cdfb15ccc) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/web-server-racket/docs/index.html) |
 | [webidl](https://github.com/stefan-hoeck/idris2-webidl) |  |  | [eaf66e8](https://github.com/stefan-hoeck/idris2-webidl/commit/eaf66e8247dac112fd535cb3371a300d5a220fd7) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/webidl/docs/index.html) |
 | [xml](https://github.com/madman-bob/idris2-xml) |  |  | [bfb02ff](https://github.com/madman-bob/idris2-xml/commit/bfb02ff5c195218de7d33ed0ee9e6a26c60c0f0b) | skipped | [docs](https://stefan-hoeck.github.io/idris2-pack-db/docs/xml/docs/index.html) |
 
@@ -166,8 +167,7 @@
 
 | Package | Dependencies | Commit |
 | --- | --- | --- |
-| [web-server-racket](https://git.sr.ht/~janus/web-server-racket) |  | [9538422](https://git.sr.ht/~janus/web-server-racket/commit/95384223a48666a78a1199c7fc49e224eefa2e67) |
-| [web-server-racket-hello-world](https://git.sr.ht/~janus/web-server-racket-hello-world) | web-server-racket | [c46aeae](https://git.sr.ht/~janus/web-server-racket-hello-world/commit/c46aeae902d8fc2e624d63983cea850adcf00184) |
+| [web-server-racket-hello-world](https://git.sr.ht/~janus/web-server-racket-hello-world) |  | [c46aeae](https://git.sr.ht/~janus/web-server-racket-hello-world/commit/c46aeae902d8fc2e624d63983cea850adcf00184) |
 
 
 ## Unresolved Packages
